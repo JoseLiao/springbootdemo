@@ -1,6 +1,5 @@
 package com.example.demo.payroll;
 
-import org.springframework.hateoas.CollectionModel;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.RepresentationModelAssembler;
 import org.springframework.stereotype.Component;
@@ -9,7 +8,7 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
 
 /**
  * @Classname EmployeeModelAssembler
- * @Description TODO
+ * @Description zhuan
  * @Author liaojp
  * @Date 2020/11/5 11:09
  */

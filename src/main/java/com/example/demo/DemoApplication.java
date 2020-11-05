@@ -7,11 +7,13 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.web.client.RestTemplate;
 
 import com.example.demo.dto.Quote;
 
 @SpringBootApplication
+@PropertySource({"classpath:logging.properties"})
 public class DemoApplication {
 
 	public static final Logger LOG = LoggerFactory.getLogger(DemoApplication.class);
