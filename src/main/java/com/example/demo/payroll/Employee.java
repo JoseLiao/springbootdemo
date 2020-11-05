@@ -8,7 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 /**
- * TODO
+ * 员工实体类
  */
 @Entity
 @Data
